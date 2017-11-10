@@ -28,3 +28,9 @@
 .menu .active {
   background-color: #E8175D;
 }
+
+/*Body */
+
+body {
+  background-color: black;
+}

@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <?php include("includes/navigation.php");?>
+    <?php $page = 'home'; include("includes/navigation.php");?>
   </header>
 </body>
 

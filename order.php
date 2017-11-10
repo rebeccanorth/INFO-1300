@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <?php include("includes/navigation.php");?>
+    <?php $page = 'order'; include("includes/navigation.php");?>
   </header>
 </body>
 

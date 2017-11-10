@@ -7,11 +7,9 @@
 
 </head>
 <body>
-  <p> hi </p>
-  <p> testing  </p>
-
-  <p>test1</p>
-
+  <header>
+    <?php include("includes/navigation.php");?>
+  </header>
 </body>
 
 </html>

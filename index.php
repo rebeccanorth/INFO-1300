@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="Styles/all.css" media="all"/>
-  <title>OffTheChain</title>
+  <title>OffTheChain - home</title>
 
 </head>
 <body>

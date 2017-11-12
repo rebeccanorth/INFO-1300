@@ -10,6 +10,9 @@
   <header>
     <?php $page = 'about'; include("includes/navigation.php");?>
   </header>
+  <figure>
+    <img src="images/jesse.jpg" alt="jesse">
+  </figure>
 </body>
 
 </html>

@@ -10,6 +10,13 @@
   <header>
     <?php $page = 'home'; include("includes/navigation.php");?>
   </header>
+  <figure>
+    <img src="images/otc.jpg" alt="off the chain">
+  </figure>
+
+  <div class="description">
+    <p> Custom necklaces handmade by me for especially you! </p>
+  </div>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
     <?php $page = 'home'; include("includes/navigation.php");?>
   </header>
   <figure>
-    <img src="images/otc.jpg" alt="off the chain">
+    <img id="chain-image" src="images/otc.jpg" alt="off the chain">
   </figure>
 
   <div class="description">

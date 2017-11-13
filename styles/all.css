@@ -35,3 +35,17 @@ body {
   background-color: black;
   color: white;
 }
+
+/*Index*/
+#chain-image {
+  width: 370px;
+  height: auto;
+  float: left;
+
+}
+.description {
+  float: left;
+  margin: 70px;
+  margin-left: 167px;
+  font-size: 130%;
+}

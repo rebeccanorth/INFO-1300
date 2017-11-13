@@ -47,7 +47,7 @@
 
      <div>
        <label>Color:</label>
-       <select id = "userCatagory" name="userCategory" required>
+       <select id = "userColor" name="userColor" required>
          <option value="">&nbsp;</option>
          <option value="gold">Gold</option>
          <option value="silver">Silver</option>
@@ -56,7 +56,7 @@
 
      <div>
        <label>Message on Necklace:</label>
-       <input type="text" id ="userName" name="userName" required>
+       <input type="text" id ="userMessage" name="userMessage" required>
      </div>
 
      <div class="button">

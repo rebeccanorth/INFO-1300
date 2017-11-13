@@ -21,9 +21,9 @@ $userMessage = $_POST["userMessage"];
    <p><div>Thank you for your order <?php echo($userName); ?> </div>
      Please expect a response at <?php echo($userEmail); ?> soon. </p>
   <p><div>You have indicated the following</div>
-    <div> Employer: <?php echo($userEmployer); ?> </div>
-    <div> Website: <?php echo($userWebsite); ?> </div>
+    <div> Address: <?php echo($userAddress); ?> </div>
     <div> Category: <?php echo($userCategory); ?> </div>
+    <div> Color: <?php echo($userColor); ?> </div>
     <div> Message: <?php echo($userMessage); ?> </div>
     <div>
  </body>

@@ -40,12 +40,42 @@
          <option value="lariat">Initial Lariat Necklace</option>
          <option value="largeletters">Personalized Name Necklace (Large Letters)</option>
          <option value="beaded">Personalized Beaded Chain Name Necklace/Choker</option>
-         <option value="disc">Personalized Disc Choker Name Necklace
-
-</option>
-
+         <option value="disc">Personalized Disc Choker Name Necklace </option>
        </select>
      </div>
+
+     <div>
+       <label>Type of Necklace:</label>
+       <select id = "userCatagory" name="userCategory" required>
+         <option value="">&nbsp;</option>
+         <option value="smallletters">Personalized Name Necklace/Choker (Small Letters)</option>
+         <option value="double">Double Chain Customized Name Necklace</option>
+         <option value="gold">Personalized Gold Plated Name Necklace/Choker</option>
+         <option value="lariat">Initial Lariat Necklace</option>
+         <option value="largeletters">Personalized Name Necklace (Large Letters)</option>
+         <option value="beaded">Personalized Beaded Chain Name Necklace/Choker</option>
+         <option value="disc">Personalized Disc Choker Name Necklace </option>
+       </select>
+     </div>
+
+     <div>
+       <label>Color:</label>
+       <select id = "userCatagory" name="userCategory" required>
+         <option value="">&nbsp;</option>
+         <option value="gold">Gold</option>
+         <option value="silver">Silver</option>
+       </select>
+     </div>
+
+     <div>
+       <label>Message on Necklace:</label>
+       <input type="text" id ="userName" name="userName" required>
+     </div>
+
+     <div class="button">
+       <button type="submit">Submit</button>
+     </div>
+   </form>
 
 
 

@@ -13,6 +13,8 @@ $userMessage = $_POST["userMessage"];
  <head>
    <meta charset="UTF-8">
    <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+   <script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+   <script type="text/javascript" src="scripts/site.js"></script>
    <title>Response</title>
  </head>
  <body>
@@ -20,7 +22,7 @@ $userMessage = $_POST["userMessage"];
    <h1 id ="sh">Your order form has been successfully submitted.</h1>
    <p><div>Thank you for your order <?php echo($userName); ?> </div>
      Please expect a response at <?php echo($userEmail); ?> soon. </p>
-  <p><div>You have indicated the following</div>
+   <p><div>You have indicated the following</div>
     <div> Address: <?php echo($userAddress); ?> </div>
     <div> Category: <?php echo($userCategory); ?> </div>
     <div> Color: <?php echo($userColor); ?> </div>

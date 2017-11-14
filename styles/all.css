@@ -46,6 +46,56 @@ body {
 .description {
   float: left;
   margin: 70px;
-  margin-left: 167px;
+  margin-left: 400px;
   font-size: 130%;
+}
+/*Form*/
+
+#form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 130%;
+}
+#userMessage {
+  width: 215px;
+}
+.field {
+  margin-top: 30px;
+}
+#submit {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/*Order*/
+#emailMissing, #nameError, #colorError, #messageError {
+  display: none;
+  padding: 7px;
+  margin: 0 auto;
+  border: 2px solid white;
+  font-size: 79%;
+  background-color: #E8175D;
+  margin-top: 10px;
+  width: 166px;
+}
+#emailError, #addressError {
+  display: none;
+  padding: 7px;
+  margin: 0 auto;
+  border: 2px solid white;
+  font-size: 79%;
+  background-color: #E8175D;
+  margin-top: 10px;
+  width: 180px;
+}
+#typeError{
+  display: none;
+  padding: 7px;
+  margin: 0 auto;
+  border: 2px solid white;
+  font-size: 79%;
+  background-color: #E8175D;
+  margin-top: 10px;
+  width: 200px;
 }

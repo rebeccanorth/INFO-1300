@@ -2,7 +2,9 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="Styles/all.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+  <script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="scripts/site.js"></script>
   <title>OffTheChain - about</title>
 
 </head>

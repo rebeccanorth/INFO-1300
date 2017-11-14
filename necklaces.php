@@ -14,7 +14,7 @@
   </header>
   <!-- Necklace 1 -->
   <div class="necklaces">
-    <img src="images/Personalized Name Choker.jpg" alt="personalized">
+    <img class="pic" src="images/Personalized Name Choker.jpg" alt="personalized">
     <div class="description-overlay">
       <p> Personalized Name Necklace/Choker (Small Letters) </p>
       <ul>
@@ -31,7 +31,7 @@
 
   <!-- Necklace 2 -->
   <div class="necklaces">
-    <img src="images/Double Chain Customized Name Necklace.jpg" alt="double">
+    <img class="pic" src="images/Double Chain Customized Name Necklace.jpg" alt="double">
     <div class="description-overlay">
       <p> Double Chain Customized Name Necklace </p>
       <ul>
@@ -48,7 +48,7 @@
 
   <!-- Necklace 3 -->
   <div class="necklaces">
-    <img src="images/Personalized Gold Plated Name Necklace.jpg" alt="double">
+    <img class="pic" src="images/Personalized Gold Plated Name Necklace.jpg" alt="double">
     <div class="description-overlay">
       <p> Personalized Gold Plated Name Necklace/Choker </p>
       <ul>
@@ -65,7 +65,7 @@
 
   <!-- Necklace 4 -->
   <div class="necklaces">
-    <img src="images/Initial Lariat Necklace.jpg" alt="initial">
+    <img class="pic" src="images/Initial Lariat Necklace.jpg" alt="initial">
     <div class="description-overlay">
       <p> Initial Lariat Necklace </p>
       <ul>
@@ -82,7 +82,8 @@
 
   <!-- Necklace 5 -->
   <div class="necklaces">
-    <img src="images/jesse-large.JPG" alt="large">
+    <img class="pic" src="images/Large Letters.jpg" alt="large">
+
     <div class="description-overlay">
       <p> Personalized Name Necklace (Large Letters) </p>
       <ul>
@@ -100,7 +101,7 @@
 
   <!-- Necklace 6 -->
   <div class="necklaces">
-    <img src="images/Beaded Chain.jpg" alt="large">
+    <img class="pic" src="images/Beaded Chain.jpg" alt="large">
     <div class="description-overlay">
       <p> Personalized Beaded Chain Name Necklace/Choker </p>
       <ul>
@@ -118,7 +119,7 @@
 
   <!-- Necklace 7 -->
   <div class="necklaces">
-    <img src="images/Disc Choker.jpg" alt="large">
+    <img class="pic" src="images/Disc Choker.jpg" alt="large">
     <div class="description-overlay">
       <p> Personalized Disc Choker Name Necklace </p>
       <ul>

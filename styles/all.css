@@ -103,3 +103,44 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   border: 2px solid white;
   font-size: 80%;
 }
+
+/*CSS code is inspired by https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade*/
+
+/*Necklaces*/
+.description-overlay, .price-overlay {
+  font-family: sans-serif;
+}
+.necklaces {
+  position: relative;
+  width: 40%;
+  float: left;
+  margin-left: 70px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+
+}
+.pic {
+  display: block;
+  width: 430px;
+  height: 330px;
+}
+.price-overlay  {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 330px;
+   width: 430px;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: rgba(0, 0, 0, 0.76);
+   text-align: center;
+}
+.price-overlay p {
+  margin-top: 120px;
+  font-size: 120%;
+}
+.necklaces:hover .price-overlay {
+  opacity: 1;
+}

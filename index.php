@@ -12,13 +12,19 @@
   <header>
     <?php $page = 'home'; include("includes/navigation.php");?>
   </header>
-  <figure>
-    <img id="chain-image" src="images/otc.jpg" alt="off the chain">
-  </figure>
-
+  <!--photo/logo via https://www.etsy.com/shop/OffTheChainByJesse-->
+  <img id = "logo" src="images/offthechain.jpg" alt="off the chain logo">
   <div class="description">
     <p> Custom necklaces handmade by me for especially you! </p>
   </div>
+  <div class="description2">
+    <p> Check out our <a href="necklaces.php">types of necklaces</a>, photos of <a href="photogallery.php"> people wearing them</a>, and order your <a href="order.php">order your own</a></p>
+  </div>
+  <figure>
+    <img id="chain-image" src="images/otc1.jpg" alt="off the chain">
+  </figure>
+
+
 </body>
 
 </html>

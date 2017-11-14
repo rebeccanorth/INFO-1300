@@ -38,16 +38,33 @@ body {
 
 /*Index*/
 #chain-image {
-  width: 370px;
+  width: 60%;
   height: auto;
-  float: left;
-
+  margin: auto;
+  display: block;
 }
 .description {
   float: left;
-  margin: 70px;
-  margin-left: 400px;
-  font-size: 130%;
+  font-size: 220%;
+  margin-left: 20px;
+  color: rgb(224, 102, 186);
+  font-style: italic;
+}
+
+.description2 {
+  float: left;
+  font-size: 140%;
+  margin-left: 20px;
+
+}
+
+.description2 a {
+  text-decoration: underline;
+  color: white;
+}
+
+#logo {
+  width: 100%;
 }
 
 /* form development assisted/inspired by https://www.w3schools.com/html/html_forms.asp and
@@ -145,7 +162,7 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   opacity: 1;
 }
 
-
+/*reviews page*/
 #reviews {
   padding: 0;
   padding-left: 30px;

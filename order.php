@@ -76,6 +76,11 @@
      <div class="button">
        <button id="submit" type="submit">Submit</button>
      </div>
+
+     <div class="button">
+       <button id="reset" type="reset">Reset</button>
+     </div>
+     
    </form>
 
 

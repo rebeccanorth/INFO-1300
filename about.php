@@ -13,7 +13,7 @@
     <?php $page = 'about'; include("includes/navigation.php");?>
   </header>
   <figure>
-    <img src="images/jesse.jpg" alt="jesse">
+    <img class="jessepic" src="images/jesse.jpg" alt="jesse">
   </figure>
 
   <header>

@@ -165,10 +165,17 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 .jessepic {
   display: block;
   border-radius: 50%;
+  width: 430px;
+  height: 330px;
 }
 
 .pix {
   display: block;
   width: 430px;
   height: 330px;
+  padding: 20px;
+}
+
+.about a{
+  color: #E8175D;
 }

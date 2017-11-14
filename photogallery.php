@@ -27,7 +27,7 @@
     <img class="pix" src="images/jessee.JPG" alt="jessee">
     <img class="pix" src="images/jw.JPG" alt="jw">
     <img class="pix" src="images/kelsey.JPG" alt="kelsey">
-    <img class="pix" src="images/kkg.JPG" alt="kkg">
+    <img class="pix" src="images/kkg.JPG" alt="love.jg">
     <img class="pix" src="images/love.JPG" alt="love">
     <img class="pix" src="images/love2.JPG" alt="love2">
     <img class="pix" src="images/lovejimmy.JPG" alt="lovejimmy">

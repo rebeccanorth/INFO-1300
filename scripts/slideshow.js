@@ -2,7 +2,7 @@
 "use strict";
 window.onload = function() {
 	//array of images
-	var images = ["bas.JPG", "bodychain.JPG", "cam.JPG", "circle.JPG", "dg.JPG", "dope.JPG", "emily.JPG","jw.JPG","kelsey.JPG","kkg.JPG", "love.JPG","love2.JPG","lovejimmy.JPG","pearlbodychain.JPG","sarah.JPG","star.JPG","stone.JPG" ];
+	var images = ["bas.JPG", "circle.JPG", "dg.JPG", "emily.JPG","jw.JPG","kelsey.JPG","kkg.JPG", "love.JPG","love2.JPG","lovejimmy.JPG", ];
 	//current image index
 	var currentImage = 0;
 

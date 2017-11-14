@@ -1,9 +1,9 @@
+<!--slideshow development inspired by lab09-->
 <!--from lab 9 -->
 "use strict";
 window.onload = function() {
 	//array of images
-	var images = ["tower1.png", "tower2.png", "tower3.png", "tower5.png", "baby-corn-1.jpg"];
-
+	var images = ["bas.JPG", "bodychain.JPG", "cam.JPG", "circle.JPG", "dg.JPG", "dope.JPG", "emily.JPG", "jesse.JPG"];
 	//current image index
 	var currentImage = 0;
 
@@ -30,12 +30,5 @@ window.onload = function() {
 			// wrap around if first image
 		}
 	});
-
-	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-	var newDate = new Date();
-	var month = months[newDate.getMonth()];
-	var day = newDate.getDate();
-	var year = newDate.getFullYear();
-	$("#date").append(month + ' ' + day + ', ' + year);
 
 };

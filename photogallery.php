@@ -12,7 +12,7 @@
   <header>
     <?php $page = 'gallery'; include("includes/navigation.php");?>
   </header>
-
+<!--
     <img class="pix" src="images/bas.JPG" alt="bas">
     <img class="pix" src="images/bodychain.JPG" alt="bodychain">
     <img class="pix" src="images/cam.JPG" alt="cam">
@@ -37,6 +37,25 @@
     <img class="pix" src="images/stone.JPG" alt="stone">
     <img class="pix" src="images/szpck.JPG" alt="szpck">
     <img class="pix" src="images/valerie.JPG" alt="valerie">
+-->
+<!--slideshow development inspired by lab09-->
+      <!-- Load slideshow script-->
+      <script src="scripts/slideshow.js" type="text/javascript"></script>
+
+      <div id="slide">
+
+        <h1>Photo Gallery</h1>
+        <div id="image_container">
+          <!-- images from https://www.etsy.com/shop/OffTheChainByJesse-->
+          <img id="current_img" src="images/bas.JPG" alt = "bas">
+        </div> <!-- end of image_container div -->
+
+        <div id="button_container">
+          <button class="slide_button" id="left" >Previous</button>
+          <button class="slide_button" id="right" >Next</button>
+        </div> <!-- end of button_container div -->
+
+      </div>
 
 
 

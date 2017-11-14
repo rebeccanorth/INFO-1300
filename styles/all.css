@@ -196,3 +196,16 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 .about a{
   color: #E8175D;
 }
+
+/* slideshow styling inspired by lab09*/
+#slide {
+  display: block;
+  margin: 0px auto;
+  width: 500px;
+}
+
+
+#current_img {
+  height: 400px;
+}
+/* (end)slideshow styling inspired by lab09*/

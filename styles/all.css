@@ -146,21 +146,20 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 }
 
 
-id = #reviewA {
+#reviews {
   padding: 0;
-  padding-left: 40px;
+  padding-left: 30px;
   margin: 0;
   text-align: left;
 }
 
-.reviewA {
+.reviewB {
   font-size: 35px;
   color: rgb(167, 167, 167);
 }
 
-.reviewB {
+.reviewA {
   font-size: 50px;
-
 }
 
 .jessepic {

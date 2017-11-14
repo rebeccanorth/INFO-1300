@@ -12,7 +12,16 @@
   <header>
     <?php $page = 'order'; include("includes/navigation.php");?>
   </header>
+<<<<<<< HEAD
 
+=======
+</body>
+<div>
+  <div id = "ordertxt"> Please fill out the following form so that we know what you are looking for!</div>
+  <div id = "ordertxt2">The time needed to prepare a order for shipping varies depending on order.
+  Once shipped the package should arrive within 3-5 days. </div>
+</div>
+>>>>>>> b1550cbe3a4dd76d74934e8e9ebe1edb5dd46bf8
 <!--contact form development assisted/inspired by https://www.w3schools.com/html/html_forms.asp and
    https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form-->
    <!--form validation, php $_POST, php eecho learned in lab 11-->

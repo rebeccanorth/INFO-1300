@@ -49,6 +49,7 @@ body {
   margin-left: 400px;
   font-size: 130%;
 }
+<<<<<<< HEAD
 /*Form*/
 
 #form {
@@ -98,4 +99,47 @@ body {
   background-color: #E8175D;
   margin-top: 10px;
   width: 200px;
+=======
+
+/* form development assisted/inspired by https://www.w3schools.com/html/html_forms.asp and
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form-->*/
+form div{
+  margin: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 140px;
+}
+
+input, textarea, select {
+  font: sans-serif;
+  width: 250px;
+}
+
+textarea {
+  height: 80px;
+  vertical-align: top;
+}
+
+button {
+  margin-left: 140px;
+}
+/*(end)form development assisted/inspired by https://www.w3schools.com/html/html_forms.asp and
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form-->*/
+
+#ordertxt {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 20px;
+}
+
+#ordertxt2 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+>>>>>>> b1550cbe3a4dd76d74934e8e9ebe1edb5dd46bf8
 }

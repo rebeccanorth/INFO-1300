@@ -49,57 +49,6 @@ body {
   margin-left: 400px;
   font-size: 130%;
 }
-<<<<<<< HEAD
-/*Form*/
-
-#form {
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 130%;
-}
-#userMessage {
-  width: 215px;
-}
-.field {
-  margin-top: 30px;
-}
-#submit {
-  padding: 10px;
-  margin-top: 30px;
-}
-
-/*Order*/
-#emailMissing, #nameError, #colorError, #messageError {
-  display: none;
-  padding: 7px;
-  margin: 0 auto;
-  border: 2px solid white;
-  font-size: 79%;
-  background-color: #E8175D;
-  margin-top: 10px;
-  width: 166px;
-}
-#emailError, #addressError {
-  display: none;
-  padding: 7px;
-  margin: 0 auto;
-  border: 2px solid white;
-  font-size: 79%;
-  background-color: #E8175D;
-  margin-top: 10px;
-  width: 180px;
-}
-#typeError{
-  display: none;
-  padding: 7px;
-  margin: 0 auto;
-  border: 2px solid white;
-  font-size: 79%;
-  background-color: #E8175D;
-  margin-top: 10px;
-  width: 200px;
-=======
 
 /* form development assisted/inspired by https://www.w3schools.com/html/html_forms.asp and
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form-->*/
@@ -141,5 +90,16 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   text-align: center;
   padding-bottom: 10px;
   font-size: 18px;
->>>>>>> b1550cbe3a4dd76d74934e8e9ebe1edb5dd46bf8
+}
+/* Hidden Messages*/
+#emailMissing, #emailError, #nameError, #addressError, #typeError, #colorError, #messageError {
+  display: none;
+  padding: 7px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 585px;
+  width: 200px;
+  background-color: #E8175D;
+  border: 2px solid white;
+  font-size: 80%;
 }

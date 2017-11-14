@@ -162,3 +162,14 @@ id = #reviewA {
   font-size: 50px;
 
 }
+
+.jessepic {
+  display: block;
+  border-radius: 50%;
+}
+
+.pix {
+  display: block;
+  width: 430px;
+  height: 330px;
+}

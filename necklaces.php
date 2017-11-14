@@ -12,6 +12,7 @@
   <header>
     <?php $page = 'necklaces'; include("includes/navigation.php");?>
   </header>
+  <!--photos via https://www.etsy.com/shop/OffTheChainByJesse and Off The Chain by Jesse-->
   <!-- Necklace 1 -->
   <div class="necklaces">
     <img class="pic" src="images/Personalized Name Choker.jpg" alt="personalized">

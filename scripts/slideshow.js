@@ -1,5 +1,4 @@
-<!--slideshow development inspired by lab09-->
-<!--from lab 9 -->
+//slideshow development inspired by lab09, slideshow.js from lab09-->
 "use strict";
 window.onload = function() {
 	//array of images

@@ -144,3 +144,21 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 .necklaces:hover .price-overlay {
   opacity: 1;
 }
+
+
+id = #reviewA {
+  padding: 0;
+  padding-left: 40px;
+  margin: 0;
+  text-align: left;
+}
+
+.reviewA {
+  font-size: 35px;
+  color: rgb(167, 167, 167);
+}
+
+.reviewB {
+  font-size: 50px;
+
+}

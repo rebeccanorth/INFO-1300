@@ -1,3 +1,4 @@
+<!--from lab 9 -->
 "use strict";
 window.onload = function() {
 	//array of images

@@ -11,6 +11,9 @@
 <body>
   <header>
     <?php $page = 'gallery'; include("includes/navigation.php");?>
+    <div class="header">
+      <p> Photo Gallery</p>
+    </div>
   </header>
 <!--
     <img class="pix" src="images/bas.JPG" alt="bas">

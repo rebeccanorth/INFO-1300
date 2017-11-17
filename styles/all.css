@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #c1c1c1;
+  background-color: black;
 }
 
 .menu li {
@@ -15,7 +15,7 @@
 
 .menu li a {
   display: block;
-  color: black;
+  color: rgb(219, 219, 219);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,17 +23,22 @@
 }
 
 .menu li a:hover {
-  background-color: #8f8f8f;
+  background-color: rgb(23, 23, 23);
 }
 .menu .active {
-  background-color: #E8175D;
+  border-bottom: 2px solid rgb(255, 52, 131);
+}
+
+.menu .active {
+  font-weight: bold;
 }
 
 /*Body */
 
 body {
-  background-color: black;
-  color: white;
+  background-color: rgb(64, 64, 64);
+  color: rgb(219, 219, 219);
+  font-family: sans-serif;
 }
 
 /*Index*/
@@ -60,7 +65,7 @@ body {
 
 .description2 a {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 
 #logo {
@@ -157,6 +162,7 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 .price-overlay p {
   margin-top: 120px;
   font-size: 120%;
+  color: white;
 }
 .necklaces:hover .price-overlay {
   opacity: 1;
@@ -195,6 +201,20 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 
 .about a{
   color: #E8175D;
+}
+.header {
+
+  background-color: rgb(105, 105, 105);
+  padding: 5px;
+  width: auto;
+  margin-top: 15px;
+}
+
+.header p {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
 }
 
 /* slideshow styling inspired by lab09*/

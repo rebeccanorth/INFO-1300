@@ -11,6 +11,9 @@
 <body>
   <header>
     <?php $page = 'about'; include("includes/navigation.php");?>
+    <div class="header">
+      <p> About Jesse</p>
+    </div>
   </header>
   <figure>
     <img class="jessepic" src="images/jesse.jpg" alt="jesse">

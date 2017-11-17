@@ -11,6 +11,9 @@
 <body>
   <header>
     <?php $page = 'necklaces'; include("includes/navigation.php");?>
+    <div class="header">
+      <p> Necklaces</p>
+    </div>
   </header>
   <!--photos via https://www.etsy.com/shop/OffTheChainByJesse and Off The Chain by Jesse-->
   <!-- Necklace 1 -->

@@ -11,6 +11,9 @@
 <body>
   <header>
     <?php $page = 'reviews'; include("includes/navigation.php");?>
+    <div class="header">
+      <p> Reviews</p>
+    </div>
   </header>
 <!--reviews sources: https://www.etsy.com/shop/OffTheChainByJesse?ref=l2-shopheader-name#reviews -->
 <div id = "reviews">

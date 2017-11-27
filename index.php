@@ -20,33 +20,15 @@
   <header class= "wide">
     <img class="chainPic" src="images/blue-otc.jpg" alt="off the chain">
     <div class="buttons">
-      <a class="bu" href="necklaces.php">Check Out Our Types of Necklaces</a> <br/>
-      <a class="bu" href="photogallery.php">See Photos</a> <br/>
-      <a class="bu" href="order.php">Order Yours Here!</a>
+      <a class="bu" id="bu_neck" href="necklaces.php">Check Out Our Types of Necklaces</a> <br/>
+      <a class="bu" id="bu_photo" href="photogallery.php">See Photos</a> <br/>
+      <a class="bu" id="bu_order" href="order.php">Order Yours Here!</a>
     </div>
   </header>
 
 
 
 
-
-
-
-
-
-  <!--photo/logo via https://www.etsy.com/shop/OffTheChainByJesse-->
-  <!-- <img id = "logo" src="images/offthechain.jpg" alt="off the chain logo">
-  <div class="description">
-    <p> Custom necklaces handmade by me for especially you! </p>
-  </div>
-  <div class="description2">
-    <p> Check out our <a href="necklaces.php">types of necklaces</a>, photos of <a href="photogallery.php"> people wearing them</a>, and order your <a href="order.php">order your own</a></p>
-  </div>
-
-
-  <figure>
-    <img id="chain-image" src="images/blue-otc.jpg" alt="off the chain">
-  </figure> -->
 
 
 

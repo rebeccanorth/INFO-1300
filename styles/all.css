@@ -26,7 +26,11 @@
   background-color: rgb(23, 23, 23);
 }
 .menu .active {
-  border-bottom: 2px solid rgb(255, 52, 131);
+  /*border-bottom: 2px solid rgb(255, 52, 131);*/
+  border: 2.5px solid #32cadd;
+  background-color: rgb(23, 23, 23);
+
+
 }
 
 .menu .active {
@@ -36,9 +40,9 @@
 /*Body */
 
 body {
-  background-color: rgb(64, 64, 64);
-  color: rgb(219, 219, 219);
-  font-family: sans-serif;
+ 	background-color: #F8F8F8;
+  color: rgb(64, 64, 64);
+  font-family: 'BarlowSemiCondensed', cursive;
 }
 
 /*Index*/
@@ -46,8 +50,13 @@ body {
   font-family:"Oswald";
   src: url("../fonts/Oswald/Oswald-Regular.ttf");
 }
+@font-face {
+  font-family:"BarlowSemiCondensed";
+  src: url("../fonts/BarlowSemiCondensed/BarlowSemiCondensed-Regular.ttf");
+}
 
-.white-container {
+
+.header-container {
   background-color: white;
   padding: 12px;
   color: black;
@@ -61,17 +70,17 @@ body {
 
 }
 
-#subtext {
+.subtext {
   font-family: 'Oswald', cursive!important;
-  font-size: 88%;
+  font-size: 100%;
   color: white;
   padding: 1px;
   background-color: black;
-  width: 328px;
+  width: 373px;
   margin: 0 auto;
   margin-bottom: 22px;
 }
-#otc {
+.otc {
   margin-bottom: 10px;
   font-size: 240%;
   margin-top: 22px;
@@ -218,6 +227,11 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   margin-top: 20px;
 
 }
+
+#neck_sub {
+  width: 267px;
+}
+
 .pic {
   display: block;
   width: 430px;
@@ -253,6 +267,10 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   text-align: left;
 }
 
+#rev_sub{
+  width: 366px;
+}
+
 .reviewB {
   font-size: 35px;
   color: rgb(167, 167, 167);
@@ -262,6 +280,11 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   font-size: 50px;
 }
 
+/*About*/
+
+#about_sub {
+  width: 179px;
+}
 .jessepic {
   display: block;
   border-radius: 50%;
@@ -306,3 +329,9 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   height: 400px;
 }
 /* (end)slideshow styling inspired by lab09*/
+
+/*Gallery*/
+
+#gal_sub {
+  width: 195px;
+}

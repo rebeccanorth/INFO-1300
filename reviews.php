@@ -11,8 +11,9 @@
 <body>
   <header>
     <?php $page = 'reviews'; include("includes/navigation.php");?>
-    <div class="header">
-      <p> Reviews</p>
+    <div class = "header-container">
+      <p class="otc"> Customer Reviews </p>
+      <p class="subtext" id="rev_sub"> Read what others have to say about their purchases </p>
     </div>
   </header>
 <!--reviews sources: https://www.etsy.com/shop/OffTheChainByJesse?ref=l2-shopheader-name#reviews -->

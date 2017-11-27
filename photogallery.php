@@ -11,8 +11,9 @@
 <body>
   <header>
     <?php $page = 'gallery'; include("includes/navigation.php");?>
-    <div class="header">
-      <p> Photo Gallery</p>
+    <div class = "header-container">
+      <p class="otc"> Photo Gallery </p>
+      <p class="subtext" id="gal_sub"> See the necklaces in action </p>
     </div>
   </header>
 <!--

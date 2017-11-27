@@ -11,8 +11,9 @@
 <body>
   <header>
     <?php $page = 'about'; include("includes/navigation.php");?>
-    <div class="header">
-      <p> About Jesse</p>
+    <div class = "header-container">
+      <p class="otc"> About Jesse </p>
+      <p class="subtext" id="about_sub"> Learn about the Creator </p>
     </div>
   </header>
   <figure>

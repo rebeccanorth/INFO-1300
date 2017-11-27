@@ -11,6 +11,9 @@
 <body>
   <header>
     <?php $page = 'order'; include("includes/navigation.php");?>
+    <div class = "header-container">
+      <p class="otc"> Order yours today! </p>
+    </div>
   </header>
 </body>
 <div>

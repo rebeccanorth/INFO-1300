@@ -11,8 +11,9 @@
 <body>
   <header>
     <?php $page = 'necklaces'; include("includes/navigation.php");?>
-    <div class="header">
-      <p> Necklaces</p>
+    <div class = "header-container">
+      <p class="otc"> Types of Necklaces </p>
+      <p class="subtext" id="neck_sub"> Find the Necklace that's right for you </p>
     </div>
   </header>
   <!--photos via https://www.etsy.com/shop/OffTheChainByJesse and Off The Chain by Jesse-->

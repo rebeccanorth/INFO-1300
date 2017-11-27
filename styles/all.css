@@ -68,14 +68,45 @@ body {
   background-color: black;
   width: 328px;
   margin: 0 auto;
+  margin-bottom: 22px;
 }
 #otc {
   margin-bottom: 10px;
   font-size: 240%;
-  margin-top: 10px;
+  margin-top: 22px;
   font-weight: 900;
   letter-spacing: 1px;
 }
+.wide {
+  position: relative;
+  text-align: center;
+}
+
+
+.bu {
+  font-family: 'Oswald', cursive!important;
+  padding: 10px;
+  opacity: 0.8;
+  color: black;
+  background-color: rgb(226, 226, 226);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 120%;
+
+}
+.buttons {
+  position: absolute;
+  top: 37px;
+  left: 45%;
+  display: block;
+  text-align: center;
+}
+
+.bu:hover {
+  opacity: 1;
+}
+
 
 
 #chain-image {

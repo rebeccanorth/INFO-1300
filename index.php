@@ -20,7 +20,9 @@
   <header class= "wide">
     <img class="chainPic" src="images/blue-otc.jpg" alt="off the chain">
     <div class="buttons">
-      <p> </p>
+      <a class="bu" href="necklaces.php">Check Out Our Types of Necklaces</a> <br/>
+      <a class="bu" href="photogallery.php">See Photos</a> <br/>
+      <a class="bu" href="order.php">Order Yours Here!</a>
     </div>
   </header>
 

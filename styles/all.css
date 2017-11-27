@@ -42,6 +42,42 @@ body {
 }
 
 /*Index*/
+@font-face {
+  font-family:"Oswald";
+  src: url("../fonts/Oswald/Oswald-Regular.ttf");
+}
+
+.white-container {
+  background-color: white;
+  padding: 12px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Oswald', cursive!important;
+
+}
+.chainPic {
+  width: 100%;
+}
+#subtext {
+  font-family: 'Oswald', cursive!important;
+  font-size: 88%;
+  color: white;
+  /*font-weight: 500;*/
+  padding: 1px;
+  background-color: black;
+  width: 328px;
+  margin: 0 auto;
+}
+#otc {
+  margin-bottom: 10px;
+  font-size: 240%;
+  margin-top: 10px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+
 #chain-image {
   /*width: 60%;*/
   width: 100%;
@@ -49,20 +85,6 @@ body {
   margin: auto;
   display: block;
 }
-
-.bg {
-    /* The image used */
-    background-image: url("images/blue-otc.jpg");
-
-    /* Full height */
-    height: 50%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 .description {
   float: left;

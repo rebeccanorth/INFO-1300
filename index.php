@@ -8,12 +8,32 @@
   <title>OffTheChain - home</title>
 
 </head>
-<body>
+<body id="homePage">
   <header>
     <?php $page = 'home'; include("includes/navigation.php");?>
   </header>
+  <div class = "white-container">
+    <p id="otc"> Off the Chain by Jesse </p>
+    <p id="subtext"> Custom necklaces handmade by me especially for you! </p>
+  </div>
+  <!-- Image Header -->
+  <header class= "wide">
+    <img class="chainPic" src="images/blue-otc.jpg" alt="off the chain">
+    <div class="buttons">
+      <p> </p>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
   <!--photo/logo via https://www.etsy.com/shop/OffTheChainByJesse-->
-  <img id = "logo" src="images/offthechain.jpg" alt="off the chain logo">
+  <!-- <img id = "logo" src="images/offthechain.jpg" alt="off the chain logo">
   <div class="description">
     <p> Custom necklaces handmade by me for especially you! </p>
   </div>
@@ -24,7 +44,7 @@
 
   <figure>
     <img id="chain-image" src="images/blue-otc.jpg" alt="off the chain">
-  </figure>
+  </figure> -->
 
 
 

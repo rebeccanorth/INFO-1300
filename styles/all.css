@@ -43,11 +43,27 @@ body {
 
 /*Index*/
 #chain-image {
-  width: 60%;
+  /*width: 60%;*/
+  width: 100%;
   height: auto;
   margin: auto;
   display: block;
 }
+
+.bg {
+    /* The image used */
+    background-image: url("images/blue-otc.jpg");
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .description {
   float: left;
   font-size: 220%;

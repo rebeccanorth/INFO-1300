@@ -139,6 +139,9 @@
       <p class="price"> #50 (0-6 letters) <br> $55 (7-10 letters) <br> $60 (11+ letters)</p>
     </div>
   </div>
+  <div class="clear"></div>
+
+  <?php include("includes/footer.php");?>
 
 
 

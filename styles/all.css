@@ -293,6 +293,7 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 .about_Container {
   display: flex;
   flex-direction: row;
+  margin-bottom: 18px;
 }
 #flexpic {
   flex: 1;
@@ -353,7 +354,99 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   text-shadow: 2px 2px 2px black;
 }
 
-/* slideshow styling inspired by lab09*/
+/* slideshow styling inspired by w3c*/
+
+
+/** {box-sizing:border-box}*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.mySlides {
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+}
+
+.slidepic {
+  height: 450px;
+  width: auto;
+  /*margin-top: 10px;
+  margin-bottom: 10px;*/
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.slideCaption {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+/* Fading animation */
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+
 #slide {
   display: block;
   margin: 0px auto;
@@ -364,10 +457,38 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 #current_img {
   height: 400px;
 }
-/* (end)slideshow styling inspired by lab09*/
+/* (end)slideshow styling inspired by w3c*/
 
 /*Gallery*/
 
 #gal_sub {
   width: 195px;
+}
+
+/*Footer*/
+.footer {
+  background-color: white;
+  font-family: 'BarlowSemiCondensed-med', cursive;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 23px;
+  top: 0px;
+}
+
+#follow {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 140%;
+  margin-top: -4px;
+  top: 0px;
+
+}
+/* clear floats */
+.clear {
+  clear: both;
+}
+.social {
+  width: 80px;
+  height: auto;
+  margin-left: 20px;
 }

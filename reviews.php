@@ -29,6 +29,7 @@
   <p class = "reviewA"> "I love it! It's super cute, but my letters turned to a rose gold color after only wearing it 3 times. I didn't shower with it or get it wet either." - Jade</p>
   <p class = "reviewB"> "Love this choker! Would definitely order again." - Harrison</p>
 </div>
+<?php include("includes/footer.php");?>
 
 </body>
 

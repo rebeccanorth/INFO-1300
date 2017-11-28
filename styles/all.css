@@ -438,11 +438,19 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
+@media (max-width: 749px) {
     .column {
-        width: 50%;
+      width: 50%;
+      margin-left: 0px;
+    }
+    .grid_pic {
+      width: auto;
+
     }
 }
+
+
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {

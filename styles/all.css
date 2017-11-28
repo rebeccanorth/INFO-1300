@@ -177,7 +177,7 @@ form div{
 
 label {
   display: inline-block;
-  width: 140px;
+  width: 223px;
 }
 
 input, textarea, select {
@@ -201,12 +201,38 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   font-size: 32px;
   padding-top: 20px;
 }
+#form input:invalid{
+  background-color: #98f4ff;
+}
+#form input{
+  background-color: white;
+}
+
+
 
 #ordertxt2 {
   text-align: center;
   padding-bottom: 10px;
   font-size: 18px;
 }
+
+#ast {
+  font-size: 16px;
+  text-align: center;
+  font-style: italic;
+  color: #21bac6;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+.as {
+  color: #21bac6;
+  font-weight: bold;
+}
+#reset {
+  margin-bottom: 15px;
+}
+
 /* Hidden Messages*/
 #emailMissing, #emailError, #nameError, #addressError, #typeError, #colorError, #messageError {
   display: none;
@@ -214,10 +240,11 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   margin: 0 auto;
   margin-top: 10px;
   margin-left: 585px;
-  width: 200px;
-  background-color: #E8175D;
+  width: 189px;
+  background-color: #32cadd;
   border: 2px solid white;
   font-size: 80%;
+  color: black;
 }
 
 /*CSS code is inspired by https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade*/

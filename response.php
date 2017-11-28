@@ -22,11 +22,37 @@ $userMessage = $_POST["userMessage"];
    <h1 id ="sh">Your order form has been successfully submitted.</h1>
    <p><div>Thank you for your order <?php echo($userName); ?> </div>
      Please expect a response at <?php echo($userEmail); ?> soon. </p>
-   <p><div>You have indicated the following</div>
+   <div>You have indicated the following</div>
     <div> Address: <?php echo($userAddress); ?> </div>
     <div> Category: <?php echo($userCategory); ?> </div>
     <div> Color: <?php echo($userColor); ?> </div>
     <div> Message: <?php echo($userMessage); ?> </div>
-    <div>
- </body>
+    <br>
+    <!-- php characters -->
+    <?php
+      $numChar = strlen($userMessage);
+    ?>
+
+    <div class="bigger"> Your necklace will have <span class="num"> <?php echo($numChar); ?>  characters.</span></div>
+    <br>
+    <!-- PHP Final Price -->
+    <?php
+      $finalprice = 0;
+      if ($numChar <= 6) {
+        $finalprice = 35;
+      } elseif($numChar <= 10) {
+        $finalprice = 45;
+      } elseif($numChar <= 18) {
+        $finalprice = 50;
+      } else {
+        $finalprice = 60;
+      }
+    ?>
+    <div class="bigger"> Your final price is approximately: <span class="num"> $<?php echo($finalprice); ?>.</span></div>
+    <br>
+
+
+
+
+</body>
 </html>

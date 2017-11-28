@@ -208,7 +208,15 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   background-color: white;
 }
 
+.num {
+  color: #98f4ff;
 
+  text-shadow: 3px 3px 3px black;
+  font-weight: bold;
+}
+.bigger {
+  font-size: 150%;
+}
 
 #ordertxt2 {
   text-align: center;

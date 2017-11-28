@@ -58,6 +58,10 @@ body {
   font-family:"BarlowSemiCondensed-med";
   src: url("../fonts/BarlowSemiCondensed/BarlowSemiCondensed-Medium.ttf");
 }
+@font-face {
+  font-family:"AmaticSC";
+  src: url("../fonts/AmaticSC/AmaticSC-regular.ttf");
+}
 
 
 .header-container {
@@ -220,7 +224,19 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 
 /*Necklaces*/
 .description-overlay, .price-overlay {
-  font-family: sans-serif;
+  font-family: BarlowSemiCondensed;
+}
+.description-overlay p {
+  width: 430px;
+  font-family: BarlowSemiCondensed-med;
+  font-size: 110%;
+  color: black;
+  font-weight: bold;
+  margin-top: 12px;
+  text-align: center;
+}
+#allnecklaces {
+  margin-left: 86px;
 }
 .necklaces {
   position: relative;
@@ -276,12 +292,20 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 }
 
 .reviewB {
-  font-size: 35px;
-  color: rgb(167, 167, 167);
+  font-size: 200%;
+  color: black;
+  font-family:"AmaticSC";
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 7px;
+  width: 88%;
+
 }
 
 .reviewA {
-  font-size: 50px;
+  font-size: 250%;
+  font-family:"AmaticSC";
+  width: 88%;
 }
 
 /*About*/

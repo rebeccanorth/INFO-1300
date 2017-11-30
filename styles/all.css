@@ -201,18 +201,12 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   font-size: 32px;
   padding-top: 20px;
 }
-#form input:invalid{
-  background-color: #98f4ff;
-}
-#form input{
-  background-color: white;
-}
 
 .num {
   color: #98f4ff;
-
-  text-shadow: 3px 3px 3px black;
-  font-weight: bold;
+  text-shadow: 0px 1px 2px black;
+  font-weight: 900;
+  font-family: 'BarlowSemiCondensed-med';
 }
 .bigger {
   font-size: 150%;
@@ -247,7 +241,7 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   padding: 7px;
   margin: 0 auto;
   margin-top: 10px;
-  margin-left: 585px;
+  margin-left: 630px;
   width: 189px;
   background-color: #32cadd;
   border: 2px solid white;

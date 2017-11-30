@@ -347,13 +347,14 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   display: flex;
   flex-direction: row;
   margin-bottom: 18px;
+  padding-bottom: 26px;
 }
 #flexpic {
   flex: 1;
 }
 #information {
   flex: 2;
-  margin-top: 78px;
+  margin-top: 38px;
 }
 
 

@@ -26,15 +26,16 @@ $userMessage = $_POST["userMessage"];
     <div> Address: <?php echo($userAddress); ?> </div>
     <div> Category: <?php echo($userCategory); ?> </div>
     <div> Color: <?php echo($userColor); ?> </div>
-    <div> Message: <?php echo($userMessage); ?> </div>
+    <!-- php characters -->
+    <?php
+      $numChar = strlen($userMessage);
+    ?>
+    <div> Message: <?php echo($userMessage);?>  (<?php echo($numChar);?> characters) </div>
     <br>
     <!-- php characters -->
     <?php
       $numChar = strlen($userMessage);
     ?>
-
-    <div class="bigger"> Your necklace will have <span class="num"> <?php echo($numChar); ?>  characters.</span></div>
-    <br>
     <!-- PHP Final Price -->
     <?php
       // Small
@@ -104,7 +105,7 @@ $userMessage = $_POST["userMessage"];
       }
 
     ?>
-    <div class="bigger"> Your final price is approximately: <span class="num"> $<?php echo($finalprice); ?></span> (+ shipping and handling).</div>
+    <div class="bigger"> Your final price is approximately <span class="num"> $<?php echo($finalprice); ?></span> (+ shipping and handling).</div>
     <br>
 
 

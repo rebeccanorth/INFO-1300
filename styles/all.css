@@ -262,17 +262,21 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   text-align: center;
 }
 #allnecklaces {
-  margin-left: 86px;
+  /*margin-left: 86px;*/
+  width: auto;
+  /*display: block;*/
 }
 .necklaces {
   position: relative;
   width: 40%;
   float: left;
-  margin-left: 70px;
   margin-bottom: 80px;
   margin-top: 20px;
+  margin-right: 60px;
+  margin-left: 40px;
 
 }
+
 
 #neck_sub {
   width: 267px;
@@ -440,6 +444,14 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
       width: auto;
 
     }
+    .necklaces {
+      margin: 0 auto;
+      width: auto;
+    }
+    .allnecklaces {
+      margin: 0 auto;
+      width: auto;
+    }
 }
 
 
@@ -601,4 +613,20 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 }
 .social_link {
   color: white;
+}
+/*RESPONSIVE*/
+@media only screen and (max-width: 749px) {
+  .menu {
+    display: block;
+    width: auto;
+  }
+  body {
+    width: auto;
+  }
+  #allnecklaces {
+    width: auto;
+  }
+  .header-container {
+    width: auto;
+  }
 }

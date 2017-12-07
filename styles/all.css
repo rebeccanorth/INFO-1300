@@ -344,8 +344,8 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
 }
 
 .about_Container {
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
   margin-bottom: 18px;
   padding-bottom: 26px;
 }
@@ -452,6 +452,7 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
       width: auto;
     }
 }
+
 
 
 
@@ -628,4 +629,25 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   .header-container {
     width: auto;
   }
+  .about_Container {
+    text-align: center;
+  }
+  .jessepic {
+    margin: 0 auto;
+  }
+}
+
+
+/*DESKTOP!!!!*/
+/*Below this line is code for DESKTOP */
+
+@media only screen and (min-width: 750px){
+  .about_Container {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+
+
 }

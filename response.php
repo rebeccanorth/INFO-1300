@@ -105,7 +105,7 @@ $userMessage = $_POST["userMessage"];
       }
 
     ?>
-    <div class="bigger"> Your final price is approximately <span class="num"> $<?php echo($finalprice); ?></span> (+ shipping and handling).</div>
+    <div class="bigger"> Your final price is <span class="num"> $<?php echo($finalprice); ?></span> (+ shipping and handling).</div>
     <br>
 
 

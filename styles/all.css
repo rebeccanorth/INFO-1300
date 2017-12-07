@@ -581,6 +581,7 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   top: 0px;
 }
 
+
 #follow {
   text-align: center;
   padding-top: 20px;
@@ -598,4 +599,9 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   width: 100px;
   height: auto;
   margin-left: 20px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(2px 2px 2px #222);
+}
+.social_link {
+  color: white;
 }

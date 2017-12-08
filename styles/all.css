@@ -121,6 +121,10 @@ body {
   margin: 0 auto;
 }
 
+.social:hover {
+  opacity: 0.8;
+}
+
 .bu:hover {
   opacity: 1;
 }
@@ -393,6 +397,13 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form--
   text-decoration: none;
   border-radius: 2px;
 }
+
+.about a:hover {
+  background-color: black;
+  transition: .3s ease;
+  color: #32cadd;
+}
+
 .header {
 
   background-color: rgb(105, 105, 105);
